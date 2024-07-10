@@ -77,6 +77,14 @@
     letter-spacing: 0%;
     text-align: center;
     margin: 32px 0px;
+    
+    cursor: pointer;
+}
+.white-btn{
+    color: rgb(255, 255, 255);
+}
+.hero-btn a {
+    text-decoration: none;
 }
 
 /* why web dev */
@@ -186,6 +194,8 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    cursor: pointer;
+    padding: 15px 0;
 }
 
 .text-center {
@@ -412,4 +422,23 @@ iframe {
     border-radius: 8px;
     background: rgb(255, 255, 255);
     cursor: pointer;
+}
+
+#footer-id {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 500px 200px 500px 400px;
+}
+
+.foot-pera {
+    width: 456px;
+    height: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
