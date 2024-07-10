@@ -126,6 +126,7 @@
     text-align: center;
 }
 
+
 .layer {
 
     width: 946px;
@@ -428,7 +429,7 @@ iframe {
     width: 1140px;
     display: flex;
     justify-content: space-between;
-    margin: 500px 200px 500px 400px;
+    margin: 500px 200px 10px 400px;
 }
 
 .foot-pera {
