@@ -257,6 +257,7 @@ iframe {
 
 /* my current target */
 .My-C-Target {
+    height: 436px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -308,7 +309,8 @@ iframe {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
-.css-skill{
+
+.css-skill {
     position: static;
     width: 364px;
     height: 200px;
@@ -320,7 +322,8 @@ iframe {
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
-.java-script{
+
+.java-script {
     position: static;
     width: 364px;
     height: 200px;
@@ -331,4 +334,82 @@ iframe {
     margin: 0 24px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+.I_N_Support {
+    position: absolute;
+    width: 1140px;
+    height: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-image: url('assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 150px 200px 150px 400px;
+}
+
+.support-header {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-des {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.form-class {
+    width: 548px;
+    height: 57px;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.btn-submit {
+    width: 120px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    margin: 0 16px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
 }
